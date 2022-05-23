@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view_controller.LoginController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="1000.0" prefWidth="1300.0">
+         <children>
+            <Label fx:id="systemRegion" alignment="CENTER" layoutX="427.0" layoutY="260.0" prefHeight="118.0" prefWidth="434.0" wrapText="true">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="loginName" layoutX="523.0" layoutY="409.0" prefHeight="37.0" prefWidth="214.0" promptText="Enter your login name" />
+            <Label fx:id="userNameTxt" layoutX="380.0" layoutY="419.0" prefHeight="17.0" prefWidth="135.0" text="Username">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="userPasswordTxt" layoutX="380.0" layoutY="478.0" prefHeight="17.0" prefWidth="135.0" text="Password">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Button fx:id="loginText" layoutX="542.0" layoutY="550.0" mnemonicParsing="false" onAction="#onLoginButton" prefHeight="50.0" prefWidth="175.0" text="LOGIN" />
+            <PasswordField fx:id="password" layoutX="523.0" layoutY="468.0" prefHeight="37.0" prefWidth="214.0" promptText="Enter your password" />
+            <Label fx:id="errorText" alignment="CENTER" layoutX="485.0" layoutY="686.0" textFill="#eb0000" underline="true" wrapText="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="20.0" right="15.0" top="15.0" />
+               </opaqueInsets>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
