@@ -4,7 +4,6 @@
 Title: C195 - Appointment Creator
 Purpose: Provide a simple way to add, update, and delete appointments or customers in the database.
 Author: David O'Camb
-Email: docamb@wgu.edu
 App Version: 1.0
 Date: 09/17/2021
 IDE Version: IntelliJ IDEA 2021.1.1 (Community Edition)
