@@ -18,10 +18,6 @@ Directions to run this program:
 3) Click on the [Open] option and select the extracted folder (it should be a DO_C195 folder with with command line icon).
 4) After the project is loaded, click on the [Run Main] option in the top right corner to start the program.
 
-A3f report description:
-I added a report to check if customers have been scheduled for an appointment. I thought it would save the user time if they needed
-to delete a customer but didn't know which appointments the customer still had left. I used "Yes" and "No" String values to simplify the choices and return a quick result.
-
 
 ******************************************************
 Extra directions just in case
