@@ -1,2 +1,2 @@
 # appointment-creator
-JavaFX app, demonstrating DAO &amp; View/Model/Control design
+JavaFX app, demonstrating DAO &amp; View/Model/Control design patterns
