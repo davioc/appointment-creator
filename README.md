@@ -4,7 +4,7 @@ An app to manage customer appointments
 - Login verifiction
 - Record login attempts in login_reports text file
 - Display appointments
-- CRUD appointment data
+- Create, Read, Update, Delete (CRUD) appointment data
 - Create timed system notifcaitons to display upcoming appointments
 - Detect system language locale, Login displays in French if it's detected
 - Model View Control (MVC) design pattern
