@@ -53,7 +53,7 @@ public class Main extends Application {
     }
 
     /**
-     * Takes in arguments from from the <code>start()</code> method in this class to enable the Login Form to launch.
+     * Takes in arguments from the <code>start()</code> method in this class to enable the Login Form to launch.
      * @param args the functions of the <code>start()</code> method
      * @throws SQLException prevents the app from crashing if incorrect syntax is used in the <code>start</code> method.
      */

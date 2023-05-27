@@ -80,7 +80,7 @@ public class LoginController implements Initializable {
     public void onLoginButton(ActionEvent actionEvent) throws IOException {
 
         // Assign file name
-        String loginReport = "src/files/login_report.txt", item;
+        String loginReport = "AppointmentCreator/DO_C195/src/files/login_report.txt", item;
 
         // Create FileWriter object
         FileWriter loginWriter = new FileWriter(loginReport, true);
