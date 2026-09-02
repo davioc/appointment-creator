@@ -1,0 +1,11 @@
+# Track only README, this file, and AppointmentCreator (source, javadoc, schema)
+*
+!/.gitignore
+!/README.md
+!/AppointmentCreator/
+!/AppointmentCreator/**
+
+# Keep IDE / leftover nested project files local
+AppointmentCreator/*.iml
+AppointmentCreator/**/*.iml
+AppointmentCreator/DO_C195/
